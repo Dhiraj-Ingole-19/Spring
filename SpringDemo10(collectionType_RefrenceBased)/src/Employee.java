@@ -46,4 +46,13 @@ public class Employee {
 	public String toString() {
 		return "Employee [eid=" + eid + ", ename=" + ename + ", pc=" + pc + "]";
 	}
+
+public void printData() {
+		
+		System.out.println("eid = " + eid);
+		System.out.println("ename = " + ename);
+		System.out.println("Personal Card = " + pc );
+		
+		
+	}
 }

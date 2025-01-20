@@ -6,7 +6,6 @@ import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import com.dao.ProductDaoImpl;
 import com.dao.ProductDaoInterface;
 @Configurable
-
 public class AppConfig {
 	@Bean
 	public DriverManagerDataSource getDataManagerDataSource() 
