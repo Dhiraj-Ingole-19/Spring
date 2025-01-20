@@ -1,7 +1,8 @@
 import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.context.annotation.Bean;
 @Configurable
-public class AppConfig {
+public class AppConfig
+{
 
 	
 	@Bean(name="Ferrari")
@@ -15,6 +16,13 @@ public class AppConfig {
 		
 		return new Mustang();
 	}
+	@Bean(name="bond")
+	public Bond bondConfig() {
+		
+		return new Bond();
+	}
+	
+	
 	
 
 }
